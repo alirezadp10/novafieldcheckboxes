@@ -8,7 +8,7 @@
                 <div
                     v-for="(label, option) in field.options"
                     :key="option"
-                    class="flex mb-2"
+                    class="mb-2"
                 >
                     <checkbox
                         :value="option"
